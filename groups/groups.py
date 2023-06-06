@@ -22,6 +22,7 @@ class Element:
     """
 
     def __init__(self, group, value):
+        """Write docstring."""
         group._validate(value)
         self.group = group
         self.value = value
@@ -55,6 +56,7 @@ class Group(ABC):
     """
 
     def __init__(self, n):
+        """Write docstring."""
         self.n = n
 
     @property
